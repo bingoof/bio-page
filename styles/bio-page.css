@@ -1,0 +1,29 @@
+.link-section {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  padding: 12px 4px;
+  padding-right: 40px;
+  border: 2px solid black;
+  border-radius: 6px;
+  width: 400px;
+  align-items: center;
+}
+
+.icon-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px none red;
+}
+
+.icon-section img {
+  width: 20px;
+  border: 1px none red;
+}
+
+.text-section {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
