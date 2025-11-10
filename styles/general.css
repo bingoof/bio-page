@@ -1,0 +1,9 @@
+body {
+  background-image: url('../images/sunset-gradient.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+
+  font-family: 'Stack+Sans+Text', sans-serif;
+} 
