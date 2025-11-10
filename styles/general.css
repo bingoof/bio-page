@@ -7,3 +7,11 @@ body {
 
   font-family: 'Stack+Sans+Text', sans-serif;
 } 
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
