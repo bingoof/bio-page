@@ -4,8 +4,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
-
-  font-family: 'Stack+Sans+Text', sans-serif;
+  font-family: "Gabarito", sans-serif;
 } 
 
 a,
@@ -14,4 +13,11 @@ a:visited,
 a:hover,
 a:active {
   text-decoration: none;
+}
+
+.page-container {
+  display: grid;
+  grid-template-rows: 300px 1fr;
+  align-items: center;
+  justify-content: center;
 }
