@@ -20,7 +20,7 @@
 }
 
 .link-section:hover {
-  background-color: transparent;
+  background-color: rgba(44, 50, 88,0.5);
   box-shadow: 0px 4px 5px rgba(0,0,0,0.15),
               0px 0px 20px rgba(29, 33, 79, 0.5);
   border: 2px solid rgba(44, 50, 88,0.4);
@@ -32,6 +32,10 @@
 
 .link-section:hover .text-section {
   color: #ffffff;
+}
+
+.portfolio-link:hover {
+  cursor: not-allowed;
 }
 
 
