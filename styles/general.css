@@ -21,3 +21,30 @@ a:active {
   align-items: center;
   justify-content: center;
 }
+
+
+.photo-credit {
+  position: fixed;
+  z-index: 1000;
+  bottom: 4px;
+  right: 6px;
+}
+
+.photo-credit, 
+.photo-credit a{
+  color: white;
+  font-size: 12px;
+}
+
+.photo-credit a:link {
+  text-decoration: underline;
+}
+
+.photo-credit a:hover {
+  color: rgba(44, 50, 88,0.6);
+}
+
+.photo-credit a:active {
+  color: rgba(39, 46, 82, 0.991);
+}
+

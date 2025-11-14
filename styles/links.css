@@ -15,30 +15,22 @@
   transition: background-color 0.15s,
               box-shadow 0.15s,
               border 0.15s;
-              
-
 }
 
-.link-section:hover {
+.link-section:not(.portfolio-link):hover {
   background-color: rgba(44, 50, 88,0.5);
   box-shadow: 0px 4px 5px rgba(0,0,0,0.15),
               0px 0px 20px rgba(29, 33, 79, 0.5);
   border: 2px solid rgba(44, 50, 88,0.4);
 }
 
-.link-section:hover img {
+.link-section:not(.portfolio-link):hover img {
   filter: invert(100%);
 }
 
-.link-section:hover .text-section {
+.link-section:not(.portfolio-link):hover .text-section {
   color: #ffffff;
 }
-
-.portfolio-link:hover {
-  cursor: not-allowed;
-}
-
-
 
 .icon-section {
   display: flex;
@@ -61,4 +53,9 @@
   color: black;
   transition: color 0.15s;
 }
+
+.portfolio-link:hover {
+  cursor: not-allowed;
+}
+
 
