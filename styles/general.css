@@ -33,10 +33,10 @@ a:active {
 .photo-credit, 
 .photo-credit a{
   color: white;
-  font-size: 12px;
+  font-size: 12px; 
 }
 
-.photo-credit a:link {
+.photo-credit a {
   text-decoration: underline;
 }
 
